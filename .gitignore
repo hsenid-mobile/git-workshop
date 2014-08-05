@@ -1,0 +1,12 @@
+.idea/
+*.ipr
+*.iml
+*.*.ipr
+*.*.iml
+*.*~
+*~
+.settings/
+.project
+.metadata
+.classpath
+.loadpath
