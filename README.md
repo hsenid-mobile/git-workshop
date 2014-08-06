@@ -1,2 +1,4 @@
-git-workshop
+Git-workshop
 ============
+
+Introduction to GIT
