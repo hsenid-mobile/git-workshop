@@ -1,0 +1,15 @@
+
+body {
+  background-color: #ffc;
+  color: #630;
+  font-family: helvetica;
+}
+
+h2 { font-family: verdana; }
+
+p { 
+  font-family: tahoma, sans-serif; 
+  line-height: 140%;
+  text-indent: 2em;
+}
+
