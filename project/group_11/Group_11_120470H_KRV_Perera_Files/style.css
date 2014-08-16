@@ -1,0 +1,16 @@
+body{
+
+	background-color:#0022FF;
+}
+
+h1 {
+	color:red;
+	margin-left:180px;
+}
+
+#Group_Description ul{
+
+	width:280px;
+	background-color:violet;
+	color:White;
+}
