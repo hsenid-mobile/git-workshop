@@ -2,7 +2,7 @@
 <html>
 <head> </head>
 <body>
-<h2>	TrueCode Technologies Inc. - Embedded solutions provider</h2>
+<h2 style="text-align:center;">	TrueCode Technologies Inc. - Embedded solutions provider</h2>
 <br>
 <img width="500" height="500" src="truecode.jpg" alt="true code">
 <div id="content" style="background-color:#EEEEEE;height:700px;width:500px;float:left;">
@@ -12,7 +12,7 @@ We are commited to deliver efficient solutions for embedded systems.
 Our team
 <br>
 <br>
-* Malith Jayaweera
+<a href="malith.html">* Malith Jayaweera</a>
 <br>
 * Buddika Pathirana
 <br>
