@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="static/css/bootstrap.css"/>
+        <title>PSD Solutions Inc.</title>
+    </head>
+    <body background="background.jpg">   
+        <div class="form-group" style="margin-left: 900px;margin-top: 20px; width: 500px">
+            <label>Search</label>      
+            <input type="text" class="form-control" name="searchtbox" placeholder="Search" style="width: 300px"/>
+        </div> 
+        <div class="form-group" style="margin-left: 300px;margin-top: -50px; width: 500px">
+            <label><h1>Welcome to PSD Solutions!</h1></label>          
+        </div> 
+        <div class="form-group" style="margin-left: 850px;margin-top: -10px; width: 500px">
+            <img src="log.jpg" width="460" height="250" alt="log"/>
+        </div>
+        <div class="form-group" style="margin-left: 150px;margin-top: -200px; width: 500px">
+            <label><h3>Our Vission: </h3></label><br>
+            <label><h4>To provide a complete and efficient solution for our clients </h4></label>
+            <label><h3>Group Members: </h3></label><br>
+            <label><h4>D. D. M. M. Arachchi</h4></label><br>
+            <label><h4>Pubudu Fernando</h4></label><br>
+            <label><h4>Yasanka Jayawardena</h4></label><br>
+            <label><h4>Dilip Tharuka</h4></label><br>
+            <label><h4>Nipuna Sankalpa</h4></label>
+        </div>
+    </body>
+</html>
