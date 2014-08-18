@@ -26,9 +26,9 @@ a:visited{
 }
 
 
-h1 {
+#upper_head {
 	color:yellow;
-	margin-left:180px;
+	text-align:center;
 }
 
 #My_Description ul{
