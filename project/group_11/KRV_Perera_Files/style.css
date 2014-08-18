@@ -1,16 +1,48 @@
 body{
 
-	background-color:#0022FF;
+	/*background-color:#55A500;*/
+	background-color:#CC9900;
 }
 
+#menu{
+	background-color:#FFCC00;
+	clear:both;
+	text-align:center;
+}
+
+ a {
+	text-decoration:none;
+	color:#008B45;
+}
+
+a:hover {
+
+	color:#FF6600;
+}
+
+a:visited{
+
+	color:#99CC00;
+}
+
+
 h1 {
-	color:red;
+	color:yellow;
 	margin-left:180px;
 }
 
-#Group_Description ul{
+#My_Description ul{
 
 	width:280px;
-	background-color:violet;
+	font-family:Verdana ,Sans;
+	background-color:#FF9900;
 	color:White;
+	clear:both;
 }
+
+#footer {
+	background-color:#FFCC00;
+	clear:both;
+	text-align:center;
+}
+
