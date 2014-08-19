@@ -1,0 +1,154 @@
+/* 
+    Document   : basic
+    Created on : Apr 14, 2014, 7:17:19 PM
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    font:normal 10pt Arial,Helvetica,sans-serif;
+    background-color: #f9f9f9;
+    background-image: linear-gradient(#D9EFFA, #EFEFEF 10%, #FFF);
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+
+}
+/*          input            */
+input.form_text{
+    margin: 0.2em 10px 0.5em 10px;
+    padding:1px 0px;
+    border:2px inset;
+    background-color:white;
+    text-align: start;
+}
+/*          div            */
+div{
+    margin-left: 10px;
+}
+div.form_requer{
+    font-style:italic;
+    margin-left:  10px;
+}
+div.form_label{
+    font-weight:bold;
+    font-size:0.9em;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+div.hint{
+    margin:0;
+    padding:0;
+    color:#999;
+
+}
+div.form{
+    margin-top:5px;
+    margin-right:5px;
+    background:white;
+    border:1px solid #c9E0ED;
+    width:950px;
+    margin:0 auto;
+}
+div.p{
+
+    background:white;
+    border:1px solid #c9E0ED;
+    margin-right:50px;
+	margin-top:15px;
+	margin-bottom:15px;
+ 
+}
+div.sp{
+margin-left:50px;
+margin-right:200px;
+
+	margin-top:15px;
+	margin-bottom:15px;
+}
+div.form_normal{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+div.ulbar{
+    background:linear-gradient(#D9EFFA, #49afcd 10%, #FFF);
+    margin-left: 0px;
+}
+div.title{
+    /*padding:10px 20px;*/
+    margin-left:  0px;
+    margin-bottom: 0px;
+    font-size:200%;
+    background-color: #c9e0ed;
+    background-repeat:repeat-x;
+}
+
+/*          ul            */
+ul.title{
+    padding:6px 20px 5px 20px;
+    margin-left: 0px;
+    list-style-type: disc
+}
+
+/*          span            */
+span.er_input{
+    margin:10px;
+    font-weight: normal;
+    padding:0;
+    color:red;
+}
+
+/*          a            */
+a.libar{
+    color:white;
+    background-color:transperent;
+    font-size:12px;
+    font-weight:bold;
+    padding:5px 8px;
+    text-decoration:none;
+}
+/*          textarea            */
+textarea{
+    margin-left:10px;
+}
+
+/*          h            */
+h1.title{
+    margin-left: 50px;
+}
+
+/*          p            */
+p{
+    font-size: 13px;
+    line-height: 20px;
+    margin: 18px 0;
+}
+
+/*          li            */
+li.para{
+    margin: 2.5em 2.4em;
+    margin-right: 7em;
+}
+li.libar{
+    color:black;
+    background-color:transparent;
+    font-size:12px;
+    font-weight:bold;
+    padding:5px 8px;
+    text-decoration:none;
+}
+li.subpara{
+    margin-left: 100px;
+    margin-top: 1.5em;
+}
+
+
