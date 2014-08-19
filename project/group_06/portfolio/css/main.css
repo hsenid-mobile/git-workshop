@@ -9,6 +9,7 @@ h1 {
 	font-size: 40pt;
 	color: #FF9900;
 	text-shadow: 3px 2px 3px rgba(0, 0, 0, 1);
+	padding: 30px 0 40px 0;
 }
 
 h2 {
@@ -48,30 +49,34 @@ h2 {
 	text-align: justify;
 	width: 432px;
 	height: 554px;
-	margin-left: 13em;
+	margin-left: 18%;
 	margin-right: auto;
+	padding-top: 30px;
 }
 
 #content h2 {
-	padding: 30px 40px 0 40px;
-	margin: 0;
-	border: 0;
+	padding: 0px 40px 10px 40px;
+	
 }
 
 #content p {
-	padding: 10px 40px 0 40px;
+	padding: 0px 40px 10px 40px;
+	line-height: 24pt;
 }
 
 #content ul {
-	margin-left: 20px
+	margin-left: 60px;
+	margin-top: 10px;
 }
 
 #content li {
 	padding-bottom: 10px;
+	list-style-type: disc;
 }
 
 #social-media {
 	text-align: center;
+	margin-top: 15px;
 }
 
 #social-media img {
@@ -92,3 +97,7 @@ h2 {
 	position: absolute;
 	position-top: 0;
 }	
+
+.last{
+	margin-bottom: 20px;
+}
