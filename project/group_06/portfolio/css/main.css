@@ -9,6 +9,12 @@ h1 {
 	font-size: 40pt;
 }
 
+h2 {
+	font-family: lane;
+	font-size: 20pt;
+	color:#FF9900;
+}
+
 #container  {
 	text-align: center;
 	z-index: 10;
@@ -42,6 +48,18 @@ h1 {
 	height: 554px;
 	margin-left: 13em;
 	margin-right: auto;
+}
+
+#content h2 {
+	padding: 30px 40px 0 40px;
+}
+
+#content p {
+	padding: 10px 40px 0 40px;
+}
+
+#content ul {
+	margin-left: 20px
 }
 
 .hstyle {
