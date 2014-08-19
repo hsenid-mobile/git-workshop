@@ -24,7 +24,7 @@ body{
     background-image: url('../images/back.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-   
+
 }
 
 #container{
@@ -69,7 +69,7 @@ body{
 #right_container{
     width: 70%;
     padding: 10px;
-    
+
 }
 
 #pic{
@@ -96,3 +96,21 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.row{
+    width: 100%;
+}
+
+.map-canvas {
+    height: 150px;
+    width: 250px;
+    float: left;
+    
+}
+
+.col{
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+
