@@ -1,0 +1,74 @@
+ body {
+    background-color: activecaption;
+    background-repeat: repeat-x;
+    background-position: top center;
+    
+}
+#header {
+	margin: 0 auto;
+	padding: 0;
+	width: auto;
+}
+#header .section {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#header .section h1{
+        font-size: 50px;
+        text-align: center;
+        color: black;     
+}
+
+
+#detail .pic{
+	background: padding-box;
+	border: 20px solid #5fb3bd;
+	border-radius: 0;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#detail .pic img {
+	display: block;
+	float: left;
+        height: 300px;
+        width: auto;
+	margin: 0 50px 0 0;
+	padding: 0;
+}
+#detail .pic h1{
+    
+        text-align: left;
+        font-size: 45px;
+        font: Arial;
+        colour:purple;
+}
+#detail .pic h2{
+        font-size: 30px;
+        font: Times new roman;
+        colour:black;
+}
+
+
+#web .connect a img{
+        display: block;
+	float: right;
+        height: 25px;
+        width: auto;
+	margin: 0 50px 0 0;
+	padding: 0;        
+}
+h1 {
+    font-family:times new roman;
+    color: brown;
+    text-align: left;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
