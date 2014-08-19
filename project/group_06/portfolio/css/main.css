@@ -7,11 +7,13 @@ body {
 h1 {
 	font-family: lane;
 	font-size: 40pt;
+	color: #FF9900;
+	text-shadow: 3px 2px 3px rgba(0, 0, 0, 1);
 }
 
 h2 {
 	font-family: lane;
-	font-size: 20pt;
+	font-size: 18pt;
 	color:#FF9900;
 }
 
@@ -52,6 +54,8 @@ h2 {
 
 #content h2 {
 	padding: 30px 40px 0 40px;
+	margin: 0;
+	border: 0;
 }
 
 #content p {
@@ -60,6 +64,18 @@ h2 {
 
 #content ul {
 	margin-left: 20px
+}
+
+#content li {
+	padding-bottom: 10px;
+}
+
+#social-media {
+	text-align: center;
+}
+
+#social-media img {
+	padding-right: 10px;
 }
 
 .hstyle {
@@ -75,5 +91,4 @@ h2 {
 .bg {
 	position: absolute;
 	position-top: 0;
-}
-
+}	
