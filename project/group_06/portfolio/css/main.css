@@ -31,6 +31,19 @@ h1 {
 
 }
 
+#content {
+	background-image: url(../images/contentbg.png);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: newcircle;
+	font-size: 14pt;
+	text-align: justify;
+	width: 432px;
+	height: 554px;
+	margin-left: 13em;
+	margin-right: auto;
+}
+
 .hstyle {
 	color: #fff;
 }
