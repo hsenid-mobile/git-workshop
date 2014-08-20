@@ -1,0 +1,42 @@
+
+<html>
+<head> </head>
+<body>
+<h2 style="text-align:center;">	TrueCode Technologies Inc. - Embedded solutions provider</h2>
+<br>
+<img width="500" height="500" src="truecode.jpg" alt="true code">
+<div id="content" style="background-color:#EEEEEE;height:700px;width:500px;float:left;">
+We are commited to deliver efficient solutions for embedded systems.
+<br>
+<br>
+Our team
+<br>
+<br>
+<a href="malith.html">* Malith Jayaweera</a>
+<br>
+* Buddika Pathirana
+<br>
+* Randika Navagamuwa
+<br>
+* Tharindu Silva
+<br>
+* Indika Wijesooriya
+<br>
+<br>
+<br>
+Our projects
+<br>
+<br>
+<img width="250" height="90" alt="emb" src="atmel.jpg">
+<br>
+<br>
+<img width="250" height="90" alt="emb" src="emb.jpg">
+<br>
+<br>
+"Giving touch screen technology that personal feel"
+<br>
+<br>
+"Automating water management tasks through specialised sensors"
+</div>
+</body>
+</html>
