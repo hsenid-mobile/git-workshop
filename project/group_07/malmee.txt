@@ -1,6 +1,6 @@
 <html>
 <body>
-welcome ghhjioxhalsncxkbskcbmasbcbasmcbxaksmw
-helloooo
+<h1>Welcome</h1>
+<p>The most important thing is to enjoy your life - to be happy - it's all that matters.</p>
 </body>
 </html>
