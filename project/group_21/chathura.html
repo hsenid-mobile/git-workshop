@@ -10,6 +10,55 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <link href="chathura/css/style.css" rel="stylesheet">
+        <script type="text/javascript"
+                src="https://maps.googleapis.com/maps/api/js">
+        </script>
+        <script type="text/javascript">
+            function initialize() {
+                var mapOptionsHome = {
+                    center: new google.maps.LatLng(7.453185, 80.418048),
+                    zoom: 15,
+                    panControl: false,
+                    zoomControl: false,
+                    mapTypeControl: false,
+                    scaleControl: false,
+                    streetViewControl: false,
+                    overviewMapControl: false
+                };
+                var mapHome = new google.maps.Map(document.getElementById("map-canvas-home"),
+                        mapOptionsHome);
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(7.453185, 80.418048),
+                    title: "Ihalagama,Pilessa",
+                    map: mapHome
+                });
+                //
+                var mapOptionsUni = {
+                    center: new google.maps.LatLng(6.796877, 79.901778),
+                    zoom: 15,
+                    panControl: false,
+                    zoomControl: false,
+                    mapTypeControl: false,
+                    scaleControl: false,
+                    streetViewControl: false,
+                    overviewMapControl: false
+                };
+                var mapUni = new google.maps.Map(document.getElementById("map-canvas-uni"),
+                        mapOptionsUni);
+
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(6.796877, 79.901778),
+                    title: "University of Moratuwa",
+                    map: mapUni
+                });
+
+
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
     </head>
     <body>
         <div id="background"></div>
@@ -33,32 +82,48 @@ and open the template in the editor.
                     <a href="https://plus.google.com/109418781686423002025">
                         <img src="chathura/images/appbar.googleplus.png" alt="fb" width="46">
                     </a> 
-                    
+
                     <p><a href="mailto:chathurawidanage@gmail.com" style="color: aquamarine">email</a> | phone : 0729624605</p>
                 </div>
             </div>
-            
+
             <div id="right_container" class="containers">
-                <p>Hello,</p>
-                <p>I am Chathura Widanage from Department of computer science 
-                    and engineering, Univerisity of Moratuwa. I have choosed ICE
-                    stream but love to experiment with CSE stuff.
-                </p>
-               <!-- 
-                <p>
-                    I am familiar with programming languages, technologies,frameworks and APIs such as,
-                </p>
-                <ul>
-                    <li>java</li>
-                    <li>javascript</li>
-                    <li>php</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>AJAX</li>
-                    <li>bootstrap</li>
-                    <li>google,facebook APIs</li>
-                </ul>-->
-                
+                <div class="row">
+
+                    <p>Hello,</p>
+                    <p>I am Chathura Widanage from Department of computer science 
+                        and engineering, Univerisity of Moratuwa. I have choosed ICE
+                        stream but love to experiment with CSE stuff.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h5 style="margin: 0">Permanent address</h5>
+                        <div id="map-canvas-home" class="map-canvas"></div>
+                    </div>
+
+                    <div class="col">
+                        <h5 style="margin: 0">Current address</h5>
+                        <div id="map-canvas-uni" class="map-canvas"></div>
+                    </div>
+
+                </div>
+                <!-- 
+                 <p>
+                     I am familiar with programming languages, technologies,frameworks and APIs such as,
+                 </p>
+                 <ul>
+                     <li>java</li>
+                     <li>javascript</li>
+                     <li>php</li>
+                     <li>HTML5</li>
+                     <li>CSS3</li>
+                     <li>AJAX</li>
+                     <li>bootstrap</li>
+                     <li>google,facebook APIs</li>
+                 </ul>-->
+
             </div>
         </div>
     </body>
