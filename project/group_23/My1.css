@@ -1,0 +1,64 @@
+body {
+    background-color: #d0e4fe;
+	background-image: url("Github Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+	background-attachment: fixed;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+a{
+	text-decoration:none;
+	font-family: "Buxton Sketch";
+	font-size:18px	
+    
+}
+ img{
+	text-align:center;
+ }
+ 
+ .center {
+    text-align: center;
+    color: red;
+}
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF00AA;
+}
+
+/* visited link */
+a:visited {
+    color: #55FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF55FF;
+}
+
+/* selected link */
+a:active {
+    color: #AA88FF;
+}
