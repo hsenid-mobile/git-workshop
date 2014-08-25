@@ -60,9 +60,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-	margin: .67em 0;
-	font-size: 2em;
-	color: rgba(0,0,0,1);
+  margin: .67em 0;
+  font-size: 2em;
 }
 mark {
   color: #000;
@@ -1078,13 +1077,11 @@ h6 .small,
 }
 h1,
 .h1 {
-	font-size: 36px;
-	color: rgba(0,0,153,1);
+  font-size: 36px;
 }
 h2,
 .h2 {
-	font-size: 30px;
-	font-weight: bold;
+  font-size: 30px;
 }
 h3,
 .h3 {
