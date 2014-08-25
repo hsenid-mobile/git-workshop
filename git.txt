@@ -1,0 +1,16 @@
+
+
+Make your group website (git-workshop/project/yourgroupno/yourgroupno.html) amazing.
+
+Create a revolutionary web page for yourself named git-workshop/project/yourgroupno/yourname.html and 
+do not forgot to put your name, index-no.
+
+href your group members pages from group main page.
+
+Submission of assignment is nowhere, all you have to deal with git and github.
+You have to complete it on or before 17th August Sunday.
+
+Evaluation Criteria includes exploring your Git account, the professionalism you shows in your commit messages, the elegancy of your group on breaking down the tasks and the creativeness of your work.
+
+You may refer https://github.com/hsenid-mobile/git-workshop/graphs/contributors to guess your marks :)
+It is better to edit your profile and keep it good looking not only for assignment but will be one of your proofs of your CV. 
