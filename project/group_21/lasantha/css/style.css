@@ -1,0 +1,34 @@
+
+/* 
+    Created on : Aug 18, 2014, 7:36:36 PM
+    Author     : Lasantha Ekanayake <lasantha.12@cse.mrt.ac.lk>
+*/
+
+body{
+	width:100%;
+	height:auto;
+	background-color:#E7E7E7;
+	padding:0;
+	margin:0;
+	margin-bottom:5px;
+	padding-bottom:10px;
+}
+
+
+.container{
+    width: 840px;  
+    height: 230px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #0000FF;
+    padding: 10px;
+}
+
+.propic{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
